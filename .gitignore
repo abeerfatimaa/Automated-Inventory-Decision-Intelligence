@@ -1,0 +1,58 @@
+# ── Environment & Secrets ─────────────────────────────────────────────────────
+# contains DATABASE_URL and other secrets — never commit this
+.env
+.env.*
+!.env.example
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# ── Node / Frontend ───────────────────────────────────────────────────────────
+node_modules/
+.next/
+.cache/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Backend ───────────────────────────────────────────────────────────────────
+# contains login credentials logic — kept private
+backend/auth.py
+# internal package marker — not needed publicly
+backend/__init__.py
+# compiled bytecode — auto-generated, not source
+backend/__pycache__/
+
+# ── Frontend ──────────────────────────────────────────────────────────────────
+# app entry point — boilerplate, not meaningful to share
+frontend/src/main.jsx
+# global reset styles — not part of core logic
+frontend/src/index.css
+# static assets — not relevant to code review
+frontend/src/assets/
+# Vite HTML shell — auto-generated boilerplate
+frontend/index.html
+# dependency list — not sharing full project setup
+frontend/package.json
+# auto-generated lock file
+frontend/package-lock.json
+# linting config — personal preference, not project logic
+frontend/eslint.config.js
+# build tool config — environment-specific
+frontend/vite.config.js
+# deployment config — contains environment settings
+frontend/vercel.json
+# static public assets — not part of core logic
+frontend/public/
+# installed packages — never committed
+frontend/node_modules/
+# nested gitignore — redundant at repo level
+frontend/.gitignore
