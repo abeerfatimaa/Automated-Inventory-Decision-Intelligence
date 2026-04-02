@@ -27,7 +27,6 @@
 |:--------|:-----|
 | Dashboard | [intelligent-inventory.vercel.app](https://intelligent-inventory.vercel.app/) |
 | API | [intelligent-inventory.onrender.com](https://intelligent-inventory.onrender.com/) |
-| API Docs | [intelligent-inventory.onrender.com/docs](https://intelligent-inventory.onrender.com/docs) |
 
 ---
 
