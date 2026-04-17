@@ -1,4 +1,4 @@
-# Intelligent Inventory Decision System — Project Description
+# Project Description
 
 ## Overview
 
